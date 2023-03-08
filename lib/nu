@@ -1,0 +1,20 @@
+// Future<String> uploadfile() async {
+  //   File file = File(_image.path);
+  //   String artName = 'artName/${DateTime.now().microsecondsSinceEpoch}';
+  //   String downloadUrl;
+  //   try {
+  //     await FirebaseStorage.instance.ref(artName).putFile(file);
+  //     downloadUrl = await FirebaseStorage.instance
+  //         .ref(artName)
+  //         .child('ArtImages')
+  //         .getDownloadURL();
+  //     if (downloadUrl != null) {
+  //       setState(() {
+  //         _image = null;
+  //       });
+  //     }
+  //   } on FirebaseException catch (e) {
+  //     print(e);
+  //   }
+  //   return downloadUrl;
+  // }
